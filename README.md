@@ -67,11 +67,3 @@ Here are a few milestones in the project roadmap which should give an idea of ho
 7. dill
 8. Flask
 9. Python 3.8
-# -e .
-
-* Once the above mentioned AWS and Azure deployment is done, you can straight away launch the web app and use it.
-
-## Future Works
-1. Using the AWS Sagemaker for deployment
-2. Updating the pipeline to use Continuous Integration along side Continuous Delivery - CICD
-3. Deploy using MLOPS
