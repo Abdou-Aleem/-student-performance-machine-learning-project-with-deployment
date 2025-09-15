@@ -8,8 +8,8 @@ Since this is going to be a regression problem, we will use traditional Machine 
 ## Deployed model
 Before going further check out the model and its performance. I have implemented two different implementations of the deployment. One to Amazon Web Services using Elactic Beanstalk and another to Microsoft Azure cloud. Below are the links to both of them.<br>
 Note: This is a simple HTML template with no extra features and beautications to keep the deployment simple.<br>
-* [**Link to the AWS Deployment**](http://studentperformance-env.eba-vmsivpx6.us-east-1.elasticbeanstalk.com/predictdata) <br>
-* [**Link to the Azure Cloud Deployment**](https://studentperformanceprediction.azurewebsites.net/predictdata)
+* [**AWS Deployment**] <br>
+* [**Azure Cloud Deployment**]
 
 Its usage is pretty simple, just enter any values into the fields and you can get the appropriate resulting score.
 
@@ -69,29 +69,6 @@ Here are a few milestones in the project roadmap which should give an idea of ho
 9. Python 3.8
 # -e .
 
-## Usage
-* Clone the project to your local machine
-```
-git clone https://github.com/HemanthJoseph/ML-Projects-with-Deployment.git
-```
-* Create a new environment for the project and activate it
-```
-conda create -p ML_env python==3.8 -y
-conda activate ML_env
-```
-* Install all necessary requirements
-```
-pip install -r requirements.txt
-```
-* Open and run the Jupyter Notebooks for Exploratory Data Analysis and Visualization
-* Run the data ingestion file to call and run the artifacts creation
-```
-python src/components/data_ingestion.py
-```
-* If that doesn't work you can alternatively execute this command
-```
-python -m src.components.data_ingestion
-```
 * Once the above mentioned AWS and Azure deployment is done, you can straight away launch the web app and use it.
 
 ## Future Works
